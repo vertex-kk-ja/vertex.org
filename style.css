@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  margin-bottom: 100px;
+}
+.textOurTeam {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  text-shadow: 0 0 5px rgba(3, 233, 244, 1), 0 0 25px rgba(3, 233, 244, 1),
+    0 0 50px rgba(3, 233, 244, 1), 0 0 100px rgba(3, 233, 244, 1),
+    0 0 200px rgba(3, 233, 244, 0.5), 0 0 300px rgba(3, 233, 244, 0.5);
+}
+.logo-vertex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.logo-vertex:hover {
+  color: rgb(219, 80, 0);
+  text-shadow: 5px 5px 5px cyan;
+  transform: scale(1.2);
+}
+.memmber {
+  width: 33.3333%;
+  height: 450px;
+  display: inline-block;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgba(179, 167, 167, 0.295);
+  margin-left: 50px;
+  margin-top: 10px;
+  box-shadow: 0 0 5px rgba(3, 233, 244, 1), 0 0 25px rgba(3, 233, 244, 1),
+    0 0 50px rgba(3, 233, 244, 1), 0 0 100px rgba(3, 233, 244, 1),
+    0 0 200px rgba(3, 233, 244, 0.5), 0 0 300px rgba(3, 233, 244, 0.5);
+}
+.memmber:hover {
+  animation: anime 2s;
+}
+@keyframes anime {
+  50% {
+    transform: rotate(15deg);
+  }
+}
+.logoVerTex {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation: animationLogo 2s linear infinite;
+  box-shadow: 0 0 5px rgba(3, 233, 244, 1), 0 0 25px rgba(3, 233, 244, 1),
+    0 0 50px rgba(3, 233, 244, 1), 0 0 100px rgba(3, 233, 244, 1),
+    0 0 200px rgba(3, 233, 244, 0.5), 0 0 300px rgba(3, 233, 244, 0.5);
+}
+@keyframes animationLogo {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid rgb(87, 83, 83);
+}
+p {
+  text-align: justify;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: thistle;
+  font-weight: 500;
+}
+a:hover {
+  font-size: 25px;
+  color: rgba(77, 77, 77, 0.795);
+  font-weight: 700;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 2px;
+}
